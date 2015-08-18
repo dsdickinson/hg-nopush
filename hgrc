@@ -1,8 +1,3 @@
-# mercurial configuration
-[ui]
-username = Steve Dickinson <dsdickinson@gmail.com>
-merge=internal:merge
-
 [extensions]
 nopush = /home/<user>/hg/hg-nopush/nopush.py
 
