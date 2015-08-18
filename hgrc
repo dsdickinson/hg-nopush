@@ -1,0 +1,13 @@
+# mercurial configuration
+[ui]
+username = Steve Dickinson <dsdickinson@gmail.com>
+merge=internal:merge
+
+[extensions]
+nopush = /home/<user>/hg/hg-nopush/nopush.py
+
+[nopush]
+nopush_dirs = /home/<user>/hg/repo1, /home/<user>/hg/repo2
+
+[hooks]
+pre-push = hg nopush
