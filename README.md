@@ -8,7 +8,7 @@ The nopush extension lets an admin prevent users from performing an 'hg push' in
 
 * Version 1.0
 
-* [Mercurial wiki - NoPushExtension](https://mercurial.selenic.com/wiki/NoPushExtension)
+* [Mercurial wiki - NoPushExtension](https://www.mercurial-scm.org/wiki/NoPushExtension)
 
 ### Setup ###
 
