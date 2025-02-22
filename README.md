@@ -2,6 +2,8 @@
 
 Mercurial extension to prohibit pushes from predefined directories.
 
+![image](https://github.com/user-attachments/assets/ff8cc1ab-7313-48ab-a88b-7a0356a7a477)
+
 ### Synopsis ###
 
 The nopush extension lets an admin prevent users from performing an 'hg push' in predefined local repository directories. Occasionally, it may be necessary to have repo directories setup whose only function is to receive updates from the mercurial server. For instance, a staging website could be setup and run from a local repo to test the on going integrity of the code there. When pulls are automatically performed on the repo, commits may also be necessary. These commits conjest the history and typically are undesired to be pushed back up to the central repository. This extension prevents that from happening. 
